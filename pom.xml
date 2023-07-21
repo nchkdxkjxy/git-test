@@ -5,23 +5,14 @@
    <artifactId>project</artifactId>
    <packaging>pom</packaging>
    <name>project</name>
-   <modules>
-      <module>projects</module>
-      <module>primary-source</module>
-      <module>servlets</module>
-      <module>ejbs</module>
-      <module>ear</module>
-      <module>site</module>
-   </modules>
+
    <build>
       <pluginManagement>
          <plugins>
             <plugin>
                <groupId>org.apache.maven.plugins</groupId>
                <artifactId>maven-site-plugin</artifactId>
-               <configuration>
-                  <unzipCommand>/usr/bin/unzip -o > err.txt</unzipCommand>
-               </configuration>
+
             </plugin>
          </plugins>
       </pluginManagement>
